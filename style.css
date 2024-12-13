@@ -59,7 +59,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 50px 20px; 
+  padding: 100px 20px; 
   background: #FBFBFB; 
   min-height: 100vh;
 }
@@ -139,7 +139,7 @@ body::-webkit-scrollbar {
 }
 
 .events .kolom h2 {
-  font-family: "Croissant One", serif;
+  font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 45px;
@@ -195,7 +195,7 @@ section .events {
 }
 
 .events2 .kolom h2 {
-  font-family: "Croissant One", serif;
+  font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 45px;
@@ -222,4 +222,61 @@ section .events2 {
   width: 100%;
   display: flex;
   margin-bottom: 50px;
+}
+
+.aboutUs {
+  background-color: #4DA9E5;
+}
+
+.aboutUs h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  width: 100%;
+  line-height: 50px;
+  text-align: left;
+  text-align: center;
+  padding-top: 200px;
+  }
+
+.aboutUs .info p{
+  /* display: flex; */
+  text-align: left;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 65px;
+  /* background-color: #333; */
+}
+
+.aboutUs .info {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 50px 100px 150px 100px;
+  /* background-color: red; */
+}
+
+.contactUs {
+  background-color: #3A75D4;
+}
+
+.contactUs h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  width: 100%;
+  line-height: 50px;
+  text-align: left;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.form {
+  background: #0ec75b;
 }
