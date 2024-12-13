@@ -255,7 +255,7 @@ section .events2 {
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding: 50px 100px 150px 100px;
+  padding: 50px 100px 250px 100px;
   /* background-color: red; */
 }
 
@@ -278,5 +278,31 @@ section .events2 {
 }
 
 .form {
-  background: #0ec75b;
+  /* background: #0ec75b; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px 400px 0px 400px;
+}
+
+.form .name, .email, .massage {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #3A75D4;
+}
+
+.form .massage{
+  height: 400px;
+  /* resize: none; */
+}
+
+.form .send_btn {
+  border-radius: 10px;
+  border-color: #3A75D4;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  padding: 5px;
+  margin: 50px 350px 100px 350px;
 }
