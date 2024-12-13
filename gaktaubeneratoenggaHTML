@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIMTI</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Georama:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header section -->
+    <header class="header">
+      <a href="#" class="logo"><img src="assets/logo himti.png" alt=""></a>
+
+      <nav class="navbar" id="navbar">
+        <a href="#" class="nav-link">HOME</a>
+        <a href="#" class="nav-link">EVENTS</a>
+        <a href="#" class="nav-link">ABOUT US</a>
+        <a href="#" class="nav-link">CONTACT US</a>
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <section class="hero" id="home">
+        <main class="content">
+          <h1>HIMTI STUDY TOUR</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sed deserunt placeat omnis id officiis magni vero, accusamus cupiditate molestiae repudiandae consectetur sunt veniam, expedita corporis ex nam fugiat maiores!.</p>
+          <a href="#"><button id="button" class="get-started">Get Started</button></a>
+        </main>
+        <img src="assets/hero.png" alt="Hero Image" class="hero-image">
+      </section>
+
+      <section id="Events" class="events">
+        <h1>EVENTS</h1>
+        <div class="kolom">
+          <h2>Domestic Study Tour</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ratione incidunt possimus amet minus architecto veritatis illo alias atque optio! Praesentium ducimus facilis consequuntur laborum sit nihil, qui maxime nesciunt.</p>
+        </div>
+        <img src="assets/Saly-16.png" alt="">
+      </section>
+      
+      <section id="Events" class="events2">
+        <img src="assets/Saly-22.png" alt="">
+        <div class="kolom">
+          <h2>International Study Tour</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ratione incidunt possimus amet minus architecto veritatis illo alias atque optio! Praesentium ducimus facilis consequuntur laborum sit nihil, qui maxime nesciunt.</p>
+        </div>
+      </section>
+
+      <section id="About_Us" class="aboutUs">
+        <h2>About Us</h2>
+        <div class="info">
+          <img src="assets/logo himti putih.png" alt="">
+          <p>Himpunanan Mahasiswa Teknik Informatika (HIMTI) Universitas Bina Nusantara adalah Organisasi Kemahasiswaan di Universitas Bina Nusantara yang berbentuk Himpunan Mahasiswa Jurusan (HMJ) untuk mahasiswa School of Computer Science (SOCS), BINUS UNIVERSITY</p>
+        </div>
+      </section>
+
+      <section id="Contact_Us" class="contactUs">
+        <h2>Contact Us</h2>
+        <div class="form">
+          <input type="text" class="name" placeholder="Name">
+          <input type="text" class="email" placeholder="Email">
+          <textarea name="" id="" class="massage" placeholder="Massage..."></textarea>
+          <input type="button" value="Send" class="send_btn">
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="logo-container">
+            <!-- Logo Binus -->
+            <img src="/assets/BINUS University White 1.png" alt="Binus Logo" class="footer-logo">
+    
+            <!-- Logo HIMTI -->
+            <img src="/assets/logo himti putih.png" alt="HIMTI Logo" class="footer-logo">
+        </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-right">
+                <p>
+                    <a href="https://instagram.com/himti_binus" target="_blank" class="social-link">
+                        <img src="/assets/akar-icons_instagram-fill.png" alt="Instagram" class="social-icon"> @himti_binus
+                    </a>
+                </p>
+                <p>
+                    <a href="https://youtube.com/himtibinus" target="_blank" class="social-link">
+                        <img src="/assets/akar-icons_youtube-fill.png" alt="YouTube" class="social-icon"> HIMTI BINUS
+                    </a>
+                </p>
+                <p>
+                    <a href="https://tiktok.com/@himtibinus" target="_blank" class="social-link">
+                        <img src="/assets/bi_tiktok.png" alt="TikTok" class="social-icon"> @himtibinus
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright">
+            © Copyright 2024 HIMTI BINUS University.
+        </div>
+    </footer>
+      
+    </div>
+</body>
+</html>
