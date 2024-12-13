@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scrollbar-width: none;
+}
+
+body {
+  overflow: -moz-scrollbars-none;
+  overflow-x: hidden;
+  background-color: #FBFBFB;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* header section */
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 1.3rem 5%;
+  background-color: #FBFBFB;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  margin-right: 3rem; 
+}
+
+.navbar {
+  display: flex;
+  gap: 3rem; 
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333; 
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+/* hero section */
+.wrapper {
+  margin-top: 50px; /* Add margin to prevent overlap with the header */
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px; 
+  background: #FBFBFB; 
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  position: relative; 
+  z-index: 2;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 5rem;
+  color: #000000;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: #747373;
+  margin-top: 10px;
+  max-width: 750px; 
+  z-index: 2;
+}
+
+.get-started {
+  background-color: #0097DA;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 40px; 
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* EVENTS */
+.events {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #B3EEF5;
+}
+
+.events img {
+  max-width: 100%;
+  height: auto;
+}
+
+.events h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #4C64AB;
+  margin: 0;  
+  padding: 0; 
+  text-align: center;  
+  display: inline-block;  
+}
+
+.events .kolom {
+  margin-top: 100px;
+  flex: 1;
+  margin-right: 20px;
+  padding: 100px 20px 20px 20px;
+  text-align: left;
+}
+
+.events .kolom h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #4C64AB;
+  width: 100%;
+  line-height: 50px;
+  text-align: left;
+}
+
+.events .kolom p {
+  text-align: left;
+  font-size: 25px;
+  color: #3974D3;
+}
+
+.events img {
+  max-width: 100%;
+  height: auto;
+}
+
+section .events {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+/*  */
+.events2 {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #B3EEF5;
+}
+
+.events2 img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 100px;
+}
+
+.events2 .kolom {
+  margin-top: 100px;
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px 200px 20px 20px;
+  text-align: right;
+}
+
+.events2 .kolom h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #4C64AB;
+  width: 100%;
+  line-height: 50px;
+  text-align: right;
+}
+
+.events2 .kolom p {
+  text-align: right;
+  font-size: 25px;
+  color: #3974D3;
+}
+
+.events2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+section .events2 {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.aboutUs {
+  background-color: #4DA9E5;
+}
+
+.aboutUs h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  width: 100%;
+  line-height: 50px;
+  text-align: left;
+  text-align: center;
+  padding-top: 200px;
+  }
+
+.aboutUs .info p{
+  /* display: flex; */
+  text-align: left;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 65px;
+  /* background-color: #333; */
+}
+
+.aboutUs .info {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 50px 100px 250px 100px;
+  /* background-color: red; */
+}
+
+.contactUs {
+  background-color: #3A75D4;
+}
+
+.contactUs h2 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  width: 100%;
+  line-height: 50px;
+  text-align: left;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.form {
+  /* background: #0ec75b; */
+  display: flex;
+  flex-direction: column;
+  margin: 50px 400px 0px 400px;
+}
+
+.form .name, .email, .massage {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #3A75D4;
+}
+
+.form .massage{
+  height: 400px;
+  /* resize: none; */
+}
+
+.form .send_btn {
+  border-radius: 10px;
+  border-color: #3A75D4;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  padding: 5px;
+  margin: 50px 350px 100px 350px;
+}
+
+.footer {
+  background-color: #0056b3;
+  color: white;
+  padding: 60px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex; /* Membuat logo sejajar horizontal */
+  align-items: center;
+  gap: 15px; /* Menambahkan jarak antar logo */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Left Section */
+.footer-left {
+  flex: 1;
+  min-width: 200px;
+  text-align: left;
+}
+
+.footer-logo {
+  height: 150px;
+}
+
+.footer-left p {
+  margin: 10px 0 0;
+  line-height: 1.5;
+}
+
+/* Footer Right Section */
+.footer-right {
+  text-align: left; /* Pastikan teks dan ikon sejajar */
+}
+
+/* Styling untuk Setiap Item Media Sosial */
+.social-item {
+  display: flex; /* Flexbox untuk menyusun ikon dan teks dalam satu baris */
+  align-items: center; /* Menyelaraskan ikon dan teks secara vertikal */
+  margin-bottom: 10px; /* Jarak antar item media sosial */
+}
+
+/* Ikon Media Sosial */
+.social-icon {
+  height: 30px; /* Ukuran ikon seragam */
+  width: 30px; /* Ukuran lebar ikon */
+  align-content: center;
+  position: relative;
+  top: 8px;
+  margin-right: 10px; /* Jarak antara ikon dan teks */
+  object-fit: contain; /* Pastikan proporsi ikon tetap */
+}
+
+/* Teks Media Sosial */
+.social-item span {
+  color: white;
+  font-size: 16px; /* Ukuran teks seragam */
+  line-height: 1.5; /* Tinggi baris agar rapi */
+}
+
+
+/* Tautan Media Sosial */
+.social-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px; /* Ukuran teks seragam */
+  line-height: 1.5; /* Jarak antar baris */
+}
+
+
+
+/* Copyright Section */
+.footer-copyright {
+  margin-top: 120px;
+  font-size: 14px;
+}
